@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['BandSaw', 'Conveyer', 'Drillpress', 'Lathe', 'MillingMachine', 'Printer3D', 'Robotcobot']
+
+roboflow:
+  workspace: object-detection-rfcdd
+  project: robot-detection-zrulj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-rfcdd/robot-detection-zrulj/dataset/1
